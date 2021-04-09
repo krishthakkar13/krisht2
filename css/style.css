@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Calibri;
+}
+
+header{
+	background-image: url(../1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 40px;
+	margin-right: 40px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+ul li.active a{
+	background-color: #000;
+	color: #fff;
+}
+
+.logo img{
+	float: left;
+	width: 200px;
+	height: auto;
+}
+
+.main{
+	max-width: 1400px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 80px;
+	padding: 100px;
+}
+
+.picture2 img{
+	float: center;
+	width: 200px;
+	height: auto;
+	position: absolute;
+	top: 48%;
+	left: 32%;
+	transform: translate(-50%,-50%);
+}
+
+.picture3 img{
+	width: 1000px;
+	height: 550px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin-top: 100px;
+	z-index: -.5;
+}
+
+.picture11 img{
+	width: 1200px;
+	height: 700px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin-top: 100px;
+	z-index: -.5;
+}
+
+.picture4 img{
+	width: 550px;
+	height: 150px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.picture6 img{
+	float: center;
+	width: 400px;
+	height: auto;
+	position: absolute;
+	top: 48%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 3;
+}
+
+.picture12 img{
+	float: center;
+	width: 320px;
+	height: auto;
+	position: absolute;
+	top: 41%;
+	left: 29%;
+	transform: translate(-50%,-50%);
+}
+
+.picture14 img{
+	float: center;
+	width: 320px;
+	height: auto;
+	position: absolute;
+	top: 78%;
+	left: 29%;
+	transform: translate(-50%,-50%);
+}
+
+.picture8 img{
+	float: center;
+	width: 200px;
+	height: auto;
+	position: absolute;
+	top: 48%;
+	left: 68%;
+	transform: translate(-50%,-50%);
+}
+
+
+
+
+.description{
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.description h1{
+	color: #fff;
+	font-size: 30px;
+
+}
+
+.portfoliod1{
+	position: absolute;
+	top: 40%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+}
+
+.portfoliod1 h1{
+	color: #fff;
+	font-size: 24px;
+
+}
+
+.portfoliod2{
+	position: absolute;
+	top: 77%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+}
+
+.portfoliod2 h1{
+	color: #fff;
+	font-size: 24px;
+
+}
+
+
